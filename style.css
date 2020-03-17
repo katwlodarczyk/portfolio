@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     
@@ -40,14 +45,10 @@ a:hover{
 }
 
 h1{
-    margin-top: 150px;
-    padding-left: 200px;
     font-size: 45px;
 }
 
 h2 {
-    padding-left: 200px;
-    margin-top: -15px;
     font-size: 25px;
     color: black;
     text-transform: uppercase;
@@ -64,19 +65,36 @@ span {
     }
 }
 
-#hello{
+#hello_section{
     width: 100%;
+    height: auto;
+	position: relative;
+	margin-top: 100px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-#profile{
-      height: 450px;
-      float: right;
-      margin-top: -180px;
-      margin-right: 210px;;
+.hello-left-side {
+	text-align: center;
+}
+.hello-left-side .hello-title {
+	font-size: 45px;
+    text-align: left;
+}
+.hello-left-side .hello-job {
+	text-align: left;
+    margin-top: 5px;
+    
+}
+.hello-right-side .profile {
+    max-width: 50%;
+    height: auto;
+    margin-left: 300px;
 }
 
-#create {
-      margin-left: 200px;
+.hello_btn {
+      margin-left: 0 auto;
       background-color: rgb(132,220,199, 0.41);
       font-size: 20px;
       border-radius: 5px;
@@ -87,31 +105,35 @@ span {
       padding-bottom: 5px;
       box-shadow: black;
       transition-duration: 0.2s;
-      margin-top: 10px;
+      margin-top: 20px;
       
 }
 
-#create:hover {
+.hello_btn:hover {
       background-color: rgb(91,152,137);
       color: white;
+      cursor: pointer;
 }
 
-.container {
+
+#about {
     width: 100%;
-    margin-bottom: 100px;;
-}
-#about_div {
-      width: 100%;
+    height: auto;
+	position: relative;
+	margin-top: 100px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-#about_image {
+.about_left {
       margin-left: 90px;
-      margin-top: 330px;
+      margin-top: 150px;
       float: left;
       width: 45%;
 }
 
-#about_section{
+.about_right{
       float: right;
       width: 40%;
       margin-right: 60px;
@@ -119,25 +141,26 @@ span {
 
 }
 
-#about_section a{
+.about_right a{
     margin-left: 20px;;
 }
 
-#about_section a:hover{
+.about_right a:hover{
     content: url(assets/twitter_color.svg);
 }
 
-#github a:hover{
+.github a:hover{
     content: url(assets/github_color.svg);
 }
 
-#behance a:hover{
+.behance a:hover{
     content: url(assets/behance_color.svg);
 }
 
 h3 {
       font-weight: 700;
       font-size: 35px;
+
 }
 
 p {
@@ -146,12 +169,17 @@ p {
       line-height: 20px;
 }
 
-#skills_div {
+#skills {
     width: 100%;
-    margin-bottom: 200px;
+    height: auto;
+	position: relative;
+	margin-top: 100px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-#skills_image {
+.skills_right {
     margin-top: 100px;
     float: right;
     width: 45%;
@@ -159,7 +187,7 @@ p {
     margin-left: 70px;
 }
 
-#skills_section{
+.skills_left{
     float: left;
     width: 35%;
     margin-left: 200px;
@@ -174,13 +202,25 @@ p {
 }
 
 
-#projects_div{
+#projects{
+    width: 100%;
+    height: auto;
+	position: relative;
+	margin-top: 100px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.projects_center{
+    margin-top: 100px;
+    background-color: grey;
     width: 100%;
 
 }
 
-
-#project_1, #project_2, #project_3 {
+.project_1, .project_2, .project_3 {
     width: 15%;
     padding: 5%;
     background-color: yellow;
@@ -191,6 +231,28 @@ p {
     
 }
 
-.container_projects{
-    background-color: red;
+#contact {
+    width: 100%;
+    height: auto;
+	position: relative;
+	margin-top: 100px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact_right {
+    margin-top: 100px;
+    float: right;
+    width: 45%;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+.contact_left{
+    float: left;
+    width: 35%;
+    margin-left: 200px;
+    margin-top: 150px;
+    height: 400px;
 }
