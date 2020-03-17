@@ -19,57 +19,62 @@
     <!-- NAV -->
     <nav>
         <ul>
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">TECHNICAL SKILLS</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">CONTACT ME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#skills">TECHNICAL SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
         </ul>
     </nav>
-    <!--Hello -->
+    <!--HELLO -->
     <div id="hello">
-        <h1>Kat Wlodarczyk</h1>
-        <h2></h2>
-        <img id="profile" src="assets/profile-blob.png" alt="profile-blob">
-        <button id="create">call to action</button>
+        <div class="container">
+            <h1>Kat Wlodarczyk</h1>
+            <h2></h2>
+            <img id="profile" src="assets/profile-blob.png" alt="profile-blob">
+            <button id="create">call to action</button>
+        </div>
     </div>
+
     <!-- ABOUT ME-->
-    <div id="about_div">
-        <section id="about_image">
-            <img src="assets/about.png" alt="about_image">
-        </section>
-        <section id="about_section">
-            <h3>About me</h3>
-            <p>I’m Kat Wlodarczyk. Originally from Poland but living permanently in UK since 2013. Web designer and
-                developer. <br>
-                I wrote my first lines of code when I was about 11 and needed a theme for a blog. It was a
-                silly Paint-made theme with code written in NotePad, but I will never forget that feeling of pride
-                and joy when I finished and it worked!<br>
-                I still get this feeling everytime I design and develop.<br><br>
-                Multi-tasker and work-a-holic. Photography lover with a need to create products that are both beautiful
-                and useful.<br><Br><br>
-                See what I’m up to on:
-                <a id="twitter" target="_blank" href="https://twitter.com/kat_wlodarczyk"><img src="assets/twitter.svg" alt="twitter"></a>
-                <a id="github" target="_blank" href="https://github.com/katwlodarczyk"><img src="assets/github.svg" alt="github"></a>
-                <a id="behance" target="_blank" href="https://www.behance.net/kat_wlodarczyk"><img src="assets/behance.svg" alt="behace"></a>
-            </p>
-        </section>
+    <div id="about">
+        <div class="container">
+            <section id="about_image">
+                <img src="assets/about.png" alt="about_image">
+            </section>
+            <section id="about_section">
+                <h3>About me</h3>
+                <p>I’m Kat Wlodarczyk. Originally from Poland but living permanently in UK since 2013. Web designer and
+                    developer. <br>
+                    I wrote my first lines of code when I was about 11 and needed a theme for a blog. It was a
+                    silly Paint-made theme with code written in NotePad, but I will never forget that feeling of pride
+                    and joy when I finished and it worked!<br>
+                    I still get this feeling everytime I design and develop.<br><br>
+                    Multi-tasker and work-a-holic. Photography lover with a need to create products that are both beautiful
+                    and useful.<br><Br><br>
+                    See what I’m up to on:
+                    <a id="twitter" target="_blank" href="https://twitter.com/kat_wlodarczyk"><img src="assets/twitter.svg" alt="twitter"></a>
+                    <a id="github" target="_blank" href="https://github.com/katwlodarczyk"><img src="assets/github.svg" alt="github"></a>
+                    <a id="behance" target="_blank" href="https://www.behance.net/kat_wlodarczyk"><img src="assets/behance.svg" alt="behace"></a>
+                </p>
+            </section>
+        </div>
     </div>
     <!-- SKILLS-->
-    <div id="skills_div">
+    <div id="skills">
         <section id="skills_section">
             <h3>Technical Skills</h3>
-            <img src="assets/logo_html.svg" alt="html5">
-            <img src="assets/logo_css.svg" alt="css3">
-            <img src="assets/logo_js.svg" alt="javascript">
-            <img src="assets/logo_python.svg" alt="python">
-            <img src="assets/logo_bootstrap.svg" alt="bootstrap">
-            <img src="assets/logo_wordpress.svg" alt="wordpress"><br>
-            <img src="assets/logo_figma_colour.svg" alt="figma">
-            <img src="assets/logo_illustrator.svg" alt="adobe illustrator">
-            <img src="assets/logo_indesign.svg" alt="adobe indesign">
-            <img src="assets/logo_photoshop.svg" alt="adobe photoshop">
-            <img src="assets/logo_lightroom.svg" alt="adobe lightroom">
-            <img src="assets/logo_xd.svg" alt="adobe xd">
+            <img id="icon" src="assets/logo_html.svg" alt="html5" title="HTML5">
+            <img id="icon" src="assets/logo_css.svg" alt="css3" title="CSS3">
+            <img id="icon" src="assets/logo_js.svg" alt="javascript" title="JavaScript">
+            <img id="icon" src="assets/logo_python.svg" alt="python" title="Python">
+            <img id="icon" src="assets/logo_bootstrap.svg" alt="bootstrap" title="Bootstrap">
+            <img id="icon" src="assets/logo_wordpress.svg" alt="wordpress" title="Wordpress"><br>
+            <img id="icon" src="assets/logo_figma_colour.svg" alt="figma" title="Figma">
+            <img id="icon" src="assets/logo_illustrator.svg" alt="adobe illustrator" title="Adobe Illustrator">
+            <img id="icon" src="assets/logo_indesign.svg" alt="adobe indesign" title="Adobe InDesign">
+            <img id="icon" src="assets/logo_photoshop.svg" alt="adobe photoshop" title="Adobe Photoshop">
+            <img id="icon" src="assets/logo_lightroom.svg" alt="adobe lightroom" title="Adobe Lightroom">
+            <img id="icon" src="assets/logo_xd.svg" alt="adobe xd" title="Adobe XD">
         </section>
         <section id="skills_image">
             <img src="assets/skills.png" alt="skills_image">
@@ -77,17 +82,24 @@
     </div>
 
     <!-- PROJECTS-->
-    <div id="projects_div">
-        <h3>Projects</h3>
-        <div id="project_1">
-            <p>this is a 1 project</p>
+    <div id="projects">
+        <div class= "container_projects">
+            <h3>Projects</h3>
+            <div id="project_1">
+                <p>this is a 1 project</p>
+            </div>
+            <div id="project_2">
+                <p>this is a 2 project</p>
+            </div>
+            <div id="project_3">
+                <p>this is a 3 project</p>
+            </div>
         </div>
-        <div id="project_2">
-            <p>this is a 1 project</p>
-        </div>
-        <div id="project_3">
-            <p>this is a 1 project</p>
-        </div>
+    </div>
+
+    <!--CONTACT -->
+    <div id="contact">
+
     </div>
 
 

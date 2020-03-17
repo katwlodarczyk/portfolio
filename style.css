@@ -96,13 +96,17 @@ span {
       color: white;
 }
 
+.container {
+    width: 100%;
+    margin-bottom: 100px;;
+}
 #about_div {
       width: 100%;
 }
 
 #about_image {
       margin-left: 90px;
-      margin-top: 430px;
+      margin-top: 330px;
       float: left;
       width: 45%;
 }
@@ -148,20 +152,25 @@ p {
 }
 
 #skills_image {
-    margin-top: 220px;
+    margin-top: 100px;
     float: right;
-    width: 40%;
+    width: 45%;
     margin-bottom: 50px;
+    margin-left: 70px;
 }
 
 #skills_section{
     float: left;
-    width: 50%;
-    padding-left: 100px;
-    margin-top: 220px;
+    width: 35%;
+    margin-left: 200px;
+    margin-top: 150px;
     height: 400px;
-    
+}
 
+#icon{
+    margin-right: 10px;
+    margin-top: 8px;
+    height: 10%;
 }
 
 
@@ -180,4 +189,8 @@ p {
     margin-left: 10px;
     height: 150px;
     
+}
+
+.container_projects{
+    background-color: red;
 }
