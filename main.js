@@ -1,4 +1,5 @@
 
+//  TYPEWRITER
 document.addEventListener('DOMContentLoaded', function (event) {
     var dataText = ["web designer", "web developer"];
 
@@ -29,4 +30,5 @@ document.addEventListener('DOMContentLoaded', function (event) {
     }
     StartTextAnimation(0);
 });
+
 

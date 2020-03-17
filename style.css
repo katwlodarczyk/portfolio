@@ -51,27 +51,31 @@ h2 {
     font-size: 25px;
     color: black;
     text-transform: uppercase;
-  }
+}
   
-  span {
+span {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
-  }
-  
-  @keyframes caret {
+}
+
+@keyframes caret {
     50% {
       border-color: transparent;
     }
-  }
+}
 
-  #profile{
+#hello{
+    width: 100%;
+}
+
+#profile{
       height: 450px;
       float: right;
       margin-top: -180px;
       margin-right: 210px;;
-  }
+}
 
-  #create {
+#create {
       margin-left: 200px;
       background-color: rgb(132,220,199, 0.41);
       font-size: 20px;
@@ -85,49 +89,95 @@ h2 {
       transition-duration: 0.2s;
       margin-top: 10px;
       
-  }
+}
 
-  #create:hover {
+#create:hover {
       background-color: rgb(91,152,137);
       color: white;
-  }
+}
 
-  #about_image {
+#about_div {
+      width: 100%;
+}
+
+#about_image {
       margin-left: 90px;
       margin-top: 430px;
       float: left;
-      width: 40%;
-  }
+      width: 45%;
+}
 
-  #about_section{
+#about_section{
       float: right;
       width: 40%;
       margin-right: 60px;
       margin-top: 150px;
 
-  }
+}
 
-  h3 {
+#about_section a{
+    margin-left: 20px;;
+}
+
+#about_section a:hover{
+    content: url(assets/twitter_color.svg);
+}
+
+#github a:hover{
+    content: url(assets/github_color.svg);
+}
+
+#behance a:hover{
+    content: url(assets/behance_color.svg);
+}
+
+h3 {
       font-weight: 700;
       font-size: 35px;
-  }
+}
 
-  p {
+p {
       font-size: 17px;
       font-weight: 100;
       line-height: 20px;
-  }
+}
 
-  #skills_image {
+#skills_div {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+#skills_image {
     margin-top: 220px;
     float: right;
     width: 40%;
+    margin-bottom: 50px;
 }
 
 #skills_section{
     float: left;
-    width: 40%;
+    width: 50%;
     padding-left: 100px;
     margin-top: 220px;
+    height: 400px;
+    
 
+}
+
+
+#projects_div{
+    width: 100%;
+
+}
+
+
+#project_1, #project_2, #project_3 {
+    width: 15%;
+    padding: 5%;
+    background-color: yellow;
+    float: left;
+    margin: auto;
+    margin-left: 10px;
+    height: 150px;
+    
 }
