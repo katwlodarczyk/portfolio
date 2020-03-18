@@ -88,9 +88,13 @@ span {
     
 }
 .hello-right-side .profile {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
-    margin-left: 300px;
+    
+}
+
+.profile {
+    margin-left: 200px;
 }
 
 .hello_btn {
@@ -120,14 +124,16 @@ span {
     width: 100%;
     height: auto;
 	position: relative;
-	margin-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 130px;
     display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .about_left {
-      margin-left: 90px;
+      margin-left: 70px;
+      margin-right: 20px;
       margin-top: 150px;
       float: left;
       width: 45%;
@@ -160,6 +166,7 @@ span {
 h3 {
       font-weight: 700;
       font-size: 35px;
+      margin-bottom: 10px;
 
 }
 
@@ -173,7 +180,8 @@ p {
     width: 100%;
     height: auto;
 	position: relative;
-	margin-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 130px;
     display: flex;
 	justify-content: center;
 	align-items: center;
@@ -195,6 +203,10 @@ p {
     height: 400px;
 }
 
+.skills_img {
+    margin-left: 100px;
+}
+
 #icon{
     margin-right: 10px;
     margin-top: 8px;
@@ -206,7 +218,8 @@ p {
     width: 100%;
     height: auto;
 	position: relative;
-	margin-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 130px;
     display: flex;
 	justify-content: center;
 	align-items: center;
@@ -244,15 +257,95 @@ p {
 .contact_right {
     margin-top: 100px;
     float: right;
-    width: 45%;
+    width: 35%;
     margin-bottom: 50px;
     margin-left: 70px;
 }
 
+
 .contact_left{
     float: left;
     width: 35%;
-    margin-left: 200px;
-    margin-top: 150px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;;
     height: 400px;
 }
+
+.contact_hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  input[type=email]:focus {
+    border: 3px solid #555;
+  }
+
+  #message{
+      height: 150px
+  }
+
+  button[type=submit] {
+    background-color:  rgb(0,150,136);;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    background-image: url(assets/send_icon_white_small.svg);
+    background-position: 19px 8px;
+    background-repeat: no-repeat;
+    text-indent: 23px;
+    text-emphasis: left;
+  }
+  
+  button[type=submit]:hover {
+    background-color: rgb(91,152,137);
+  }
+
+  #message {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    resize: none;
+  }
+
+  #message:focus{
+    border: 3px solid #555;
+    resize: none;
+
+  }
+
