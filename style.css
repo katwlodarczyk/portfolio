@@ -151,15 +151,15 @@ span {
     margin-left: 20px;;
 }
 
-.about_right a:hover{
+.twitter:hover{
     content: url(assets/twitter_color.svg);
 }
 
-.github a:hover{
+.github:hover{
     content: url(assets/github_color.svg);
 }
 
-.behance a:hover{
+.behance:hover{
     content: url(assets/behance_color.svg);
 }
 
@@ -173,7 +173,8 @@ h3 {
 p {
       font-size: 17px;
       font-weight: 100;
-      line-height: 20px;
+      line-height: 23px;
+      
 }
 
 #skills {
@@ -181,7 +182,7 @@ p {
     height: auto;
 	position: relative;
     margin-top: 100px;
-    margin-bottom: 130px;
+    margin-bottom: 90px;
     display: flex;
 	justify-content: center;
 	align-items: center;
@@ -218,37 +219,63 @@ p {
     width: 100%;
     height: auto;
 	position: relative;
-    margin-top: 100px;
-    margin-bottom: 130px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .projects_center{
     margin-top: 100px;
-    background-color: grey;
     width: 100%;
-
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
 }
 
-.project_1, .project_2, .project_3 {
-    width: 15%;
-    padding: 5%;
-    background-color: yellow;
+.projects_header {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: -5%;
+}
+
+
+.project_1, .project_2, .project_3, .project_4, .project_5 {
+    width: 25%;
+    padding: 10px;
     float: left;
     margin: auto;
-    margin-left: 10px;
-    height: 150px;
-    
+    margin-left: 30px;
+    height: 200px; 
+    margin-bottom: 150px;
+}
+
+.content {
+    border-color: black;
+    border-width: 5px;
+}
+
+.project_image {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 165px
+}
+
+.project_image:hover {
+    opacity: 0.5;
+}
+
+.project_title {
+    font-weight: bolder;
 }
 
 #contact {
     width: 100%;
     height: auto;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 80px;
     display: flex;
 	justify-content: center;
 	align-items: center;
@@ -307,9 +334,6 @@ input[type="text"]{
     border: 3px solid #555;
   }
 
-  #message{
-      height: 150px
-  }
 
   button[type=submit] {
     background-color:  rgb(0,150,136);;
@@ -340,6 +364,7 @@ input[type="text"]{
     transition: 0.5s;
     outline: none;
     resize: none;
+    height: 150px;
   }
 
   #message:focus{
@@ -347,3 +372,18 @@ input[type="text"]{
     resize: none;
   }
 
+.footer_hr {
+    margin-top: 100px;
+}
+
+#footer {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.footer {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
