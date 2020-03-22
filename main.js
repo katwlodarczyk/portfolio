@@ -1,12 +1,10 @@
 // FORM VALIDATION 
 
 function main() {
-    console.log("in main function");
     var Form = document.getElementById("contactForm");
     Form.addEventListener("submit", validateForm);
 }
 
-//validate callback function 
 function validateForm(event) {
     var formValid = true;
     var contactForm = document.getElementById("contactForm");
@@ -42,7 +40,7 @@ function validateForm(event) {
 
 //  TYPEWRITER
 document.addEventListener('DOMContentLoaded', function (event) {
-    var dataText = ["web designer", "web developer"];
+    var text = ["web designer", "web developer"];
 
     function typeWriter(text, i, fnCallback) {
         if (i < (text.length)) {
@@ -52,19 +50,19 @@ document.addEventListener('DOMContentLoaded', function (event) {
             }, 100);
         }
         else if (typeof fnCallback == 'function') {
-            setTimeout(fnCallback, 700);
+            setTimeout(fnCallback, 900);
         }
     }
 
     function StartTextAnimation(i) {
-        if (typeof dataText[i] == 'undefined') {
+        if (typeof text[i] == 'undefined') {
             setTimeout(function () {
                 StartTextAnimation(0);
             }, 1000);
         }
 
-        if (i < dataText[i].length) {
-            typeWriter(dataText[i], 0, function () {
+        if (i < text[i].length) {
+            typeWriter(text[i], 0, function () {
                 StartTextAnimation(i + 1);
             });
         }
