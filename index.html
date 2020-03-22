@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Khand|Montserrat&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="main()">
     <!--LOGO -->
     <a href="#"><img id="logo" src="assets/logo.png" alt="logo"></a>
     <!-- NAV -->
@@ -53,7 +53,8 @@
                 silly Paint-made theme with a code written in NotePad, but I will never forget that feeling of pride
                 and joy when I finished and it worked!<br>
                 I still get this feeling everytime I design and develop.<br><br>
-                Multi-tasker and work-a-holic. Perfectionist. Photography lover with a need to create products that are both beautiful
+                Multi-tasker and work-a-holic. Perfectionist. Photography lover with a need to create products that are
+                both beautiful
                 and useful.<br><Br><br>
                 See what I’m up to on:
                 <a class="twitter" target="_blank" href="https://twitter.com/kat_wlodarczyk"><img
@@ -95,7 +96,8 @@
 
             <div class="project_1">
                 <div class="content">
-                    <a target="_blank" href="https://katvonwiesendorf.com" title="Go to: katvonwiesendorf.com"><img class="project_image" src="assets/kvw.jpg" alt="kvw website"></a>
+                    <a target="_blank" href="https://katvonwiesendorf.com" title="Go to: katvonwiesendorf.com"><img
+                            class="project_image" src="assets/kvw.jpg" alt="kvw website"></a>
                 </div>
                 <div class="pr_description">
                     <h4 class="project_title">KATVONWIESENDORF.COM</h4><br>
@@ -106,7 +108,8 @@
 
             <div class="project_2">
                 <div class="content">
-                    <a target="_blank" href="https://katwlodarczyk.github.io/quiz-lette/" title="Play a game"><img class="project_image" src="assets/quizlette.jpg" alt="quizlette"></a>
+                    <a target="_blank" href="https://katwlodarczyk.github.io/quiz-lette/" title="Play a game"><img
+                            class="project_image" src="assets/quizlette.jpg" alt="quizlette"></a>
                 </div>
                 <div class="pr_description">
                     <h4 class="project_title">Quiz-lette</h4><br>
@@ -117,7 +120,8 @@
 
             <div class="project_3">
                 <div class="content">
-                    <a target="_blank" href="https://katwlodarczyk.github.io/goals-list/" title="See in action"><img class="project_image" src="assets/goals-list.png" alt="goals-list"></a>
+                    <a target="_blank" href="https://katwlodarczyk.github.io/goals-list/" title="See in action"><img
+                            class="project_image" src="assets/goals-list.png" alt="goals-list"></a>
                 </div>
                 <div class="pr_description">
                     <h4 class="project_title">Goals-list</h4><br>
@@ -128,7 +132,8 @@
 
             <div class="project_4">
                 <div class="content">
-                    <a target="_blank" href="https://katwlodarczyk.github.io/drum-kit/" title="Play drums"><img class="project_image" src="assets/drum_kit.png" alt="drum-kit"></a>
+                    <a target="_blank" href="https://katwlodarczyk.github.io/drum-kit/" title="Play drums"><img
+                            class="project_image" src="assets/drum_kit.png" alt="drum-kit"></a>
                 </div>
                 <div class="pr_description">
                     <h4 class="project_title">Drum Kit</h4><br>
@@ -140,7 +145,8 @@
 
             <div class="project_5">
                 <div class="content">
-                    <a target="_blank" href="https://katwlodarczyk.github.io/shoppingApp1.0/" title="See in action"><img class="project_image" src="assets/shoppingList.jpg" alt="shoppingList"></a>
+                    <a target="_blank" href="https://katwlodarczyk.github.io/shoppingApp1.0/" title="See in action"><img
+                            class="project_image" src="assets/shoppingList.jpg" alt="shoppingList"></a>
                 </div>
                 <div class="pr_description">
                     <h4 class="project_title">shoppingApp1.0</h4><br>
@@ -162,17 +168,22 @@
                 Fill the form below and I will get back to you <br>as soon as I can!
             </p>
             <hr class="contact_hr">
-            <p><input type="text" name="name" placeholder="Name"></p>
-            <p><input type="email" name="email" placeholder="E-mail"></p>
-            <p><textarea name="message" id="message" placeholder="Your message"></textarea>
-            <p><button type="submit">Send</button>
+            <form id="contactForm">
+                <p><input type="text" name="name" placeholder="Name"></p>
+                <p id="nameError" style="display: none"> Error. Please write your name. </p>
+                <p><input type="email" name="email" placeholder="E-mail"></p>
+                <p id="emailError" style="display: none"> Error. Please write your email. </p>
+                <p><textarea name="message" id="message" placeholder="Your message"></textarea>
+                    <p id="messageError" style="display: none"> Please leave a message. </p>
+                    <p><button type="submit">Send</button>
+            </form>
         </div>
     </section>
     <hr class="footer_hr">
     <!-- FOOTER -->
     <section id="footer">
         <div class="footer">
-            <p>Created by Kat Wlodarczyk © Copyright 2020. All rights reserved.
+            <p class="foot">Created by Kat Wlodarczyk © Copyright 2020. All rights reserved.
             </p>
         </div>
     </section>

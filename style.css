@@ -334,6 +334,17 @@ input[type="text"]{
     border: 3px solid #555;
   }
 
+  #nameError, #emailError {
+      font-size: 12px;
+      color: red;
+      margin-top: -10px;
+  }
+
+  #messageError {
+      margin-top: -15px;
+      font-size: 12px;
+      color: red;
+  }
 
   button[type=submit] {
     background-color:  rgb(0,150,136);;
@@ -348,6 +359,7 @@ input[type="text"]{
     background-repeat: no-repeat;
     text-indent: 23px;
     text-emphasis: left;
+    margin-top: 5px;
   }
   
   button[type=submit]:hover {
@@ -379,11 +391,15 @@ input[type="text"]{
 #footer {
     position: relative;
     display: flex;
-    margin-top: 10px;
+    margin-top: 8px;
 
 }
 
 .footer {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     margin-left: 10px;
+}
+
+.foot {
+    font-size: 15px;
 }
