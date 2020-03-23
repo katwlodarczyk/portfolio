@@ -502,7 +502,19 @@ input[type="text"]{
 }
 
  /* Small Devices, Tablets */
-@media (max-width : 768px) {
+@media (max-width: 768px) {
+    .hello_left{
+        margin-left: 5%;
+        max-width: 45%;
+    }
+    .hello_right{
+        max-width: 40%;
+    }
+    .profile {
+        margin-left: 10%;
+        max-width: 80%;
+    }
+    
     #about{
         display: block;
         margin-top: 50px;
@@ -543,20 +555,27 @@ input[type="text"]{
 
     .skills_right {
         margin-top: 20px;
+        margin-right: 20px;
     }
     .skills_img {
        width: 100%;
        margin-left: -10px;
        padding-top: 20px;
-
+    
     }
 
     #projects {
         margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .projects_header{
+        margin-left: 0;
     }
 
     .projects_center {
         display: block;
+        margin-left: 0;
     }
 
     .project_1, .project_2, .project_3, .project_4, .project_5 {
@@ -582,15 +601,25 @@ input[type="text"]{
 
     }
     .contact_right {
-        width: 90%;
+        width: 70%;
         float: none;
         margin-left: 5%;
         margin-top: 0px;
     }
+    #message {
+        height: 100px;
+    }
 }
 
    /* Extra Small Devices, Phones */ 
-@media (max-width : 480px) {
+@media (max-width : 638px) {
+    #skills {
+        display: block;
+        margin-bottom: 100px;
+    }
+    .skills_right {
+        display: none;
+    }
 
 }
 
