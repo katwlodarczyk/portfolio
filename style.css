@@ -242,7 +242,7 @@ p {
 }
 
 
-.project_1, .project_2, .project_3, .project_4, .project_5 {
+.project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
     width: 25%;
     padding: 10px;
     float: left;
@@ -268,7 +268,27 @@ p {
 }
 
 .project_title {
-    font-weight: bolder;
+    font-size: 19px;
+}
+
+.project_para {
+    font-size: 15px;
+    color: rgb(58, 56, 56);
+}
+
+#toTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#toTopBtn:hover {
+    opacity: 0.6;
 }
 
 #contact {
@@ -404,14 +424,22 @@ input[type="text"]{
     font-size: 15px;
 }
 
+/* MEDIA QUERIES */
+
  /* Large Devices, Wide Screens */
- @media (max-width : 1080px) {
-    .profile {
+ @media (max-width : 1210px) {
+    .hello_left{
+        margin-left: 5%;
+        max-width: 45%;
+    }
+    .hello_right{
         max-width: 60%;
     }
-    .hello-left{
-        margin-left: 10%;
+    .profile {
+        margin-left: 30%;
+        max-width: 80%;
     }
+    
     .hello-title {
         font-size: 40px;
     }
@@ -451,68 +479,23 @@ input[type="text"]{
     #message {
         padding: 10px 15px;
     }
+    .contact_img {
+        max-width: 110%;
+    }
 }
 
  /* Medium Devices, Desktops */
 @media (max-width : 992px) {
-    .profile {
-        max-width: 50%;
-    }
-    .hello-left{
-        margin-left: 5%;
-        
-    }
-    .about_img {
-        max-width: 90%;
-    }
-    .about_right p {
-        font-size: 15px;
-    }
-    .about_right h3 {
-        font-size: 30px;
-    }
-    #skills {
-        margin-bottom: 0px;
-    }
-    .skills_left {
-        margin-left: 50px;
-    }
-    .skills_right {
-        margin-left: 20px;
-    }
-    .projects_center {
-        margin-top: 0px;
-    }
-    .contact_right h3 {
-        font-size: 30px;
-    }
-    .contact_right p {
-        font-size: 16px;
-    }
-    input[type="text"]{
-        padding: 10px 15px
-    }
-    input[type="email"]{
-        padding: 10px 15px;
-    }
-    #message {
-        padding: 10px 15px;
-    }
-
-}
-
- /* Small Devices, Tablets */
-@media (max-width: 768px) {
     .hello_left{
         margin-left: 5%;
-        max-width: 45%;
-    }
-    .hello_right{
         max-width: 40%;
     }
+    .hello_right{
+        max-width: 60%;
+    }
     .profile {
-        margin-left: 10%;
-        max-width: 80%;
+        margin-left: 20%;
+        max-width: 70%;
     }
     
     #about{
@@ -528,7 +511,10 @@ input[type="text"]{
     }
 
     .about_img {
-        max-width: 60%;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
     .about_right {
@@ -537,48 +523,35 @@ input[type="text"]{
         margin-left: 5%;
         margin-top: 50px;
     }
-
-    #skills{
-        margin-top: 0px;
-    }
-    .skills_left {
-        width: 90%;
-        float: none;
-        margin-left: 5%;
-        margin-top: 0px;
-        height: auto;
-    }
-
-    .skills_left h3{
-        font-size: 30px;
-    }
-
-    .skills_right {
-        margin-top: 20px;
-        margin-right: 20px;
-    }
-    .skills_img {
-       width: 100%;
-       margin-left: -10px;
-       padding-top: 20px;
-    
-    }
-
-    #projects {
-        margin-top: 50px;
+    #skills {
         margin-bottom: 0px;
     }
 
-    .projects_header{
-        margin-left: 0;
+    .skills_right{
+        margin-left: 0px;
+    } 
+
+    .skills_img {
+        max-width: 70%;
+        margin-left: 50px;
+    }
+
+    .skills_left {
+        margin-left: 50px;
+        width: 40%;
+    }
+
+    #projects{
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .projects_center {
-        display: block;
-        margin-left: 0;
+        margin-top: 0px;
+        margin-left: 5%;
     }
 
-    .project_1, .project_2, .project_3, .project_4, .project_5 {
+    .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
         width: 40%;
     }
 
@@ -597,6 +570,128 @@ input[type="text"]{
     }
 
     .contact_img {
+        max-width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .contact_right {
+        width: 70%;
+        float: none;
+        margin-left: 5%;
+        margin-top: 0px;
+    }
+
+    input[type="text"]{
+        padding: 10px 15px
+    }
+    input[type="email"]{
+        padding: 10px 15px;
+    }
+    #message {
+        padding: 10px 15px;
+        height: 100px;
+    }
+
+    #toTopBtn { 
+        bottom: 20px;
+        right: 15px;
+    }
+
+
+}
+
+ /* Small Devices, Tablets */
+@media (max-width: 768px) {
+    .hello_left{
+        margin-left: 5%;
+        max-width: 45%;
+    }
+    .hello_right{
+        max-width: 40%;
+    }
+
+    nav ul {
+        float: right;;
+    }
+
+    .profile {
+        margin-left: 25%;
+        max-width: 80%;
+    }
+    
+    #about{
+        display: block;
+        margin-top: 50px;
+    }
+    .about_left {
+        width: 100%;
+        float: none;
+        margin-left: 25%;
+
+    }
+
+    .about_img {
+        max-width: 50%;
+
+    }
+    .about_right {
+        width: 90%;
+        float: none;
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+
+    #skills {
+        display: block;
+        margin-top:50px;
+        padding-left: 15%;
+    }
+    .skills_left {
+        width: 100%;
+        align-items: center;
+        height: auto;
+        margin-bottom: 10%;
+        margin-top: 1%;
+        
+    }
+    .skills_right {
+        display: none;
+    }
+
+    #projects {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .projects_header{
+        margin-left: 0;
+    }
+
+    .projects_center {
+        display: block;
+        margin-left: 0;
+    }
+
+    .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+        width: 40%;
+    }
+
+    #contact{
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .contact_left {
+        width: 100%;
+        float: none;
+        margin-left: 30%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .contact_img {
         max-width: 50%;
 
     }
@@ -609,6 +704,10 @@ input[type="text"]{
     #message {
         height: 100px;
     }
+
+    #toTopBtn { 
+        bottom: 35px;
+    }
 }
 
    /* Extra Small Devices, Phones */ 
@@ -616,15 +715,100 @@ input[type="text"]{
     #skills {
         display: block;
         margin-bottom: 100px;
+        padding-left: 15%;
+    }
+    .skills_left {
+        width: 90%;
+        align-items: center;
+        margin-left: 0px;
     }
     .skills_right {
         display: none;
     }
 
-}
+    .contact_left {
+        height: auto;
+        margin-bottom: 10%;
+    }
 
+    .project_title{
+        font-size: 17px;;
+    }
+    .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+        width: 55%;
+        padding-left: 20%;
+    }
+   
+
+}
+@media (max-width : 532px) {
+    .profile{
+        display: none;
+    }
+    .hello_left{
+        padding-right: 40%;
+    }
+    .hello_btn{
+        font-size: 15px;
+    }
+    .hello_job{
+        font-size: 15px
+    }    
+    #toTopBtn{
+        bottom: 10px;
+        right: 10px;
+        z-index: 99;
+    }
+    .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+        width: 60%;
+        padding-left: 1%;
+    }
+}
   
 /* Custom, iPhone Retina */ 
 @media (max-width : 320px) {
+    .hello_btn{
+        font-size: 13px;
+    }
+    .hello_title{
+        font-size: 35px;;
+    }
+    .hello_job{
+        font-size: 15px;
+    }
+    .about_left{
+        margin-left: 10%;
+    }
+    .about_img{
+        max-width: 80%;
+    }
+    .about_right p{
+        font-size: 13px;
+    }
+    .skills_left{
+        max-width: 70%;
+        margin-bottom: 15%;
+    }
+    .project_1, .project_2, .project_3, .project_4, .project_5, .project_6 {
+        width: 60%;
+        padding-left: 1%;
+    }
+    .project_title{
+        font-size: 15px;
+    }
+    .pr_description{
+        font-size: 15px;
+    }
+    .content{
+        max-width: 200%;
+    }
 
+    .contact_img{
+        display: none;
+    }
+    #toTopBtn{
+        bottom: 30px;
+        right: 50px;
+        z-index: 99;
+    }
 }
