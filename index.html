@@ -9,11 +9,14 @@
     <meta name="author" content="Kat Wlodarczyk" />
 
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Khand|Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body onload="main()">
+
+
+    <button onclick="toTopFunction()" id="toTopBtn" title="Go to top"><img src="assets/icons8-up.svg" alt="Go to top"></button>
+
     <!--LOGO -->
     <a href="#"><img id="logo" src="assets/logo.png" alt="logo"></a>
     <!-- NAV -->
@@ -57,12 +60,12 @@
                 both beautiful
                 and useful.<br><Br>
                 See what I’m up to on:
-                <a class="twitter" target="_blank" href="https://twitter.com/kat_wlodarczyk"><img
-                        src="assets/twitter.svg" alt="twitter"></a>
-                <a class="github" target="_blank" href="https://github.com/katwlodarczyk"><img src="assets/github.svg"
-                        alt="github"></a>
-                <a class="behance" target="_blank" href="https://www.behance.net/kat_wlodarczyk"><img
-                        src="assets/behance.svg" alt="behace"></a>
+                    <a class="twitter" target="_blank" href="https://twitter.com/kat_wlodarczyk"><img
+                            src="assets/twitter.svg" alt="twitter"></a>
+                    <a class="github" target="_blank" href="https://github.com/katwlodarczyk"><img src="assets/github.svg"
+                            alt="github"></a>
+                    <a class="behance" target="_blank" href="https://www.behance.net/kat_wlodarczyk"><img
+                            src="assets/behance.svg" alt="behace"></a>
             </p>
         </div>
     </section>
@@ -102,7 +105,7 @@
                 <div class="pr_description">
                     <h4 class="project_title">KATVONWIESENDORF.COM</h4><br>
                     <p>Photography blog.</p>
-                    <p>Wordpress project built on Bootstrap framework.</p>
+                    <p class="project_para">Wordpress project built on Bootstrap framework.</p>
                 </div>
             </div>
 
@@ -114,7 +117,7 @@
                 <div class="pr_description">
                     <h4 class="project_title">Quiz-lette</h4><br>
                     <p>True or False quiz game.</p>
-                    <p>Written in HTML, CSS, JavaScript</p>
+                    <p class="project_para">Written in HTML, CSS, JavaScript</p>
                 </div>
             </div>
 
@@ -126,7 +129,7 @@
                 <div class="pr_description">
                     <h4 class="project_title">Goals-list</h4><br>
                     <p>Flex Gallery.</p>
-                    <p>Written in HTML, CSS, JavaScript</p>
+                    <p class="project_para">Written in HTML, CSS, JavaScript</p>
                 </div>
             </div>
 
@@ -138,7 +141,7 @@
                 <div class="pr_description">
                     <h4 class="project_title">Drum Kit</h4><br>
                     <p>Play drums using the keyboard.</p>
-                    <p>Written in HTML, CSS, JavaScript.</p>
+                    <p class="project_para">Written in HTML, CSS, JavaScript.</p>
                 </div>
             </div>
 
@@ -151,9 +154,22 @@
                 <div class="pr_description">
                     <h4 class="project_title">shoppingApp1.0</h4><br>
                     <p>Simple shopping list app.</p>
-                    <p>Written in HTML,CSS, JavaScript.</p>
+                    <p class="project_para">Written in HTML,CSS, JavaScript.</p>
                 </div>
             </div>
+
+            <div class="project_6">
+                <div class="content">
+                    <a target="_blank" href="https://github.com/katwlodarczyk/databases-swd406" title="See on Github"><img
+                            class="project_image" src="assets/databases.png" alt="databases"></a>
+                </div>
+                <div class="pr_description">
+                    <h4 class="project_title">Introduction to Databases</h4><br>
+                    <p>Database integration.</p>
+                    <p class="project_para">Written in Python.</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -179,6 +195,8 @@
             </form>
         </div>
     </section>
+
+
     <hr class="footer_hr">
     <!-- FOOTER -->
     <section id="footer">
@@ -188,10 +206,7 @@
         </div>
     </section>
 
-
-
-
-
+    <script src="main.js"></script>
 </body>
 
 </html>
