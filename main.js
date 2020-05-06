@@ -39,6 +39,7 @@ function validateForm(event) {
 
 
 //  TYPEWRITER
+
 document.addEventListener('DOMContentLoaded', function (event) {
     var text = ["web designer", "web developer"];
 
@@ -69,3 +70,22 @@ document.addEventListener('DOMContentLoaded', function (event) {
     }
     StartTextAnimation(0);
 });
+
+//TO TOP BUTTON
+
+toTopbutton = document.getElementById("toTopBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+    toTopbutton.style.display = "block";
+  } else {
+    toTopbutton.style.display = "none";
+  }
+}
+
+function toTopFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
