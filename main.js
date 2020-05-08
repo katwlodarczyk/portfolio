@@ -56,13 +56,10 @@ document.addEventListener('DOMContentLoaded', function (event) {
     }
 
     function StartTextAnimation(i) {
-        if (typeof text[i] == 'undefined') {
-            setTimeout(function () {
-                StartTextAnimation(0);
-            }, 1000);
+        if (i >= text.length) {
+            i = 0;
         }
-
-        if (i < text[i].length) {
+        if (i < text.length) {
             typeWriter(text[i], 0, function () {
                 StartTextAnimation(i + 1);
             });
@@ -90,24 +87,17 @@ function toTopFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-
 // HAMBURGER MENU
 
 function hamburgerMenu() {
-    var x = document.getElementById("links");
-    if (x.className === "links") {
-        x.className += " responsive";
-        z= document.getElementById("hamburger");
-        z.style.transition= "0.3s ease-in-out"
-        z.style.display = 'none';
-        y= document.getElementById("close");
-        y.style.display = 'block';
-        y.style.transition = "0.3s ease-in-out";
-        
+    var x = document.getElementById("links"), z = document.getElementById("hamburger");
+    var z_states = ["<img src=\"assets/icons8-menu-copy.svg\" alt=\"menu\">","<img src=\"assets/icons8-multiply-copy.svg\" alt=\"close\">"];
+    if (z.innerHTML == z_states[0]) {
+        z.innerHTML = z_states[1];
+        x.classList.add("responsive");
     } else {
-      x.className = "links";
-      y.style.display ='none';
-      z.style.display='block';
+      z.innerHTML = z_states[0];
+      x.classList.remove("responsive");
     }
   }
 
