@@ -89,3 +89,25 @@ function toTopFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+// HAMBURGER MENU
+
+function hamburgerMenu() {
+    var x = document.getElementById("links");
+    if (x.className === "links") {
+        x.className += " responsive";
+        z= document.getElementById("hamburger");
+        z.style.transition= "0.3s ease-in-out"
+        z.style.display = 'none';
+        y= document.getElementById("close");
+        y.style.display = 'block';
+        y.style.transition = "0.3s ease-in-out";
+        
+    } else {
+      x.className = "links";
+      y.style.display ='none';
+      z.style.display='block';
+    }
+  }
+
