@@ -38,7 +38,7 @@ function validateForm(event) {
 } 
 
 
-//  TYPEWRITER
+// TYPEWRITER
 
 document.addEventListener('DOMContentLoaded', function (event) {
     var text = ["web designer", "web developer"];
@@ -101,3 +101,18 @@ function hamburgerMenu() {
     }
   }
 
+
+//SENT BUTTON
+
+const btn = document.querySelector('.btn');
+const btnText = document.querySelector('.btn');
+
+btn.addEventListener('click', () => {
+	btn.classList.add('sending');
+	btnText.innerHTML = 'Sending...';
+
+	setTimeout(() => {
+		btn.classList.remove('sending');
+		btnText.innerHTML = 'Sent!';
+	}, 2000);
+});
