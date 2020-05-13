@@ -15,15 +15,17 @@
 <body onload="main()">
 
 
-    <button onclick="toTopFunction()" id="toTopBtn" title="Go to top"><img src="assets/icons8-up.svg" alt="Go to top"></button>
+    <button onclick="toTopFunction()" id="toTopBtn" title="Go to top"><img src="assets/icons8-up.svg"
+            alt="Go to top"></button>
 
     <!--LOGO -->
     <a href="#"><img id="logo" src="assets/logo.png" alt="logo"></a>
     <!-- NAV -->
     <nav>
-        <ul class="links" id="links"> 
-            <li><a href="javascript:void(0);" class="hamburger" id="hamburger" onclick="hamburgerMenu()"><img src="assets/icons8-menu-copy.svg" alt="menu"></a></li>
-            <li><a style="margin-top: 20%" href="#about" class="menu-links" >ABOUT ME</a></li>
+        <ul class="links" id="links">
+            <li><a href="javascript:void(0);" class="hamburger" id="hamburger" onclick="hamburgerMenu()"><img
+                        src="assets/icons8-menu-copy.svg" alt="menu"></a></li>
+            <li><a style="margin-top: 20%" href="#about" class="menu-links">ABOUT ME</a></li>
             <li><a href="#skills" class="menu-links">TECHNICAL SKILLS</a></li>
             <li><a href="#projects" class="menu-links">PROJECTS</a></li>
             <li><a href="https://katcodes.home.blog" target="_blank" class="menu-links">BLOG</a></li>
@@ -58,20 +60,21 @@
                 Multi-tasker and work-a-holic. Perfectionist. Photography lover, with a need to create products that are
                 both beautiful and useful. Always in pursuit to learn something new.<br><br>
             </p>
-            <h4>How it all started?</h4>    
+            <h4>How it all started?</h4>
             <p>
-                I wrote my first lines of code when I was about 11 and needed a theme for a blog. 
-                It was a silly Paint-made theme with a code written in NotePad, but I will never forget that feeling of pride
+                I wrote my first lines of code when I was about 11 and needed a theme for a blog.
+                It was a silly Paint-made theme with a code written in NotePad, but I will never forget that feeling of
+                pride
                 and joy when I finished and it worked!<br>
                 I still get this feeling everytime I design and develop.<br><br>
-                
+
                 See what I’m up to on:
-                    <a class="twitter" target="_blank" href="https://twitter.com/kat_wlodarczyk"><img
-                            src="assets/twitter.svg" alt="twitter"></a>
-                    <a class="github" target="_blank" href="https://github.com/katwlodarczyk"><img src="assets/github.svg"
-                            alt="github"></a>
-                    <a class="behance" target="_blank" href="https://www.behance.net/kat_wlodarczyk"><img
-                            src="assets/behance.svg" alt="behace"></a>
+                <a class="twitter" target="_blank" href="https://twitter.com/kat_wlodarczyk"><img
+                        src="assets/twitter.svg" alt="twitter"></a>
+                <a class="github" target="_blank" href="https://github.com/katwlodarczyk"><img src="assets/github.svg"
+                        alt="github"></a>
+                <a class="behance" target="_blank" href="https://www.behance.net/kat_wlodarczyk"><img
+                        src="assets/behance.svg" alt="behace"></a>
             </p>
         </div>
     </section>
@@ -166,8 +169,8 @@
 
             <div class="project_6">
                 <div class="content">
-                    <a target="_blank" href="https://github.com/katwlodarczyk/databases-swd406" title="See on Github"><img
-                            class="project_image" src="assets/databases.png" alt="databases"></a>
+                    <a target="_blank" href="https://github.com/katwlodarczyk/databases-swd406"
+                        title="See on Github"><img class="project_image" src="assets/databases.png" alt="databases"></a>
                 </div>
                 <div class="pr_description">
                     <h4 class="project_title">Introduction to Databases</h4><br>
@@ -196,8 +199,13 @@
                 <p><input type="email" name="email" placeholder="E-mail"></p>
                 <p id="emailError" style="display: none"> Error. Please write your email. </p>
                 <p><textarea name="message" id="message" placeholder="Your message"></textarea>
-                    <p id="messageError" style="display: none"> Please leave a message. </p>
-                    <button class="btn" type="submit">Send</button>
+                <p id="messageError" style="display: none"> Please leave a message. </p>
+                <label class="agree-checkbox">
+                    <input type="checkbox" id="agree" name="agree" value="yes">
+                    <span class="custom-checkbox"></span>
+                    <p class="agree-text">I agree with the handling of my data in accordance with the Privacy Policy</p>
+                </label><br><br>
+                <button class="btn" type="submit">Send</button>
             </form>
         </div>
     </section>
@@ -207,7 +215,7 @@
     <!-- FOOTER -->
     <section id="footer">
         <div class="footer">
-            <p class="foot">Created by Kat Wlodarczyk © Copyright 2020. All rights reserved.
+            <p class="foot">Created by Kat Wlodarczyk © Copyright 2020. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a>
             </p>
         </div>
     </section>
