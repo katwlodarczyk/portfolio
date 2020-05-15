@@ -1,5 +1,5 @@
 ## 1.1 Background
-Created website is attempting to solve issue of self-promotion. Web technology sector relies deeply on the ability to show yourself and your abilities. 
+Created website is attempting to solve the issue of self-promotion. Web technology sector relies deeply on the ability to show yourself and your abilities. 
 This problem complies with the assessment criteria. 
 ## 1.2 Wire Frames
 Low fidelity wire frames have been created prior to the coding process.
@@ -13,4 +13,4 @@ _“The colour scheme for a website can contribute to the overall brand percepti
 ## 1.7 Evaluation
 ## 2. References
 
-SOEGAARD, M., 2020,  Dressing Up Your UI with Colors That Fit, Available from: (https://www.interaction-design.org/literature/article/dressing-up-your-ui-with-colors-that-fit) [Viewed 12.05.2020] 
+SOEGAARD, M., 2020,  Dressing Up Your UI with Colors That Fit, Available from: https://www.interaction-design.org/literature/article/dressing-up-your-ui-with-colors-that-fit [Viewed 12.05.2020] 
