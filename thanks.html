@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanks! - Kat Wlodarczyk - WEB DESIGNER & DEVELOPER</title>
+    <meta name="description" content="Kat Wlodarczyk WEB DESIGNER AND WEB DEVELOPER" />
+    <meta name="author" content="Kat Wlodarczyk" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Khand&family=Montserrat:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onload="main()">
+    <button onclick="toTopFunction()" id="toTopBtn" title="Go to top">
+        <img src="assets/icons8-up.svg" alt="Go to top" />
+    </button>
+
+    <!--LOGO -->
+    <a href="index.html"><img id="logo" src="assets/kw-logo.svg" alt="logo" /></a>
+    <!-- NAV -->
+    <nav>
+        <ul class="links" id="links">
+            <li>
+                <a href="javascript:void(0);" class="hamburger" id="hamburger" onclick="hamburgerMenu()"><img
+                        src="assets/icons8-menu-copy.svg" alt="menu" /></a>
+            </li>
+            <li>
+                <a style="margin-top: 20%;" href="index.html#about" class="menu-links">ABOUT ME</a>
+            </li>
+            <li><a href="index.html#skills" class="menu-links">TECHNICAL SKILLS</a></li>
+            <li><a href="index.html#projects" class="menu-links">PROJECTS</a></li>
+            <li>
+                <a style="margin-bottom: 25%;" href="index.html#contact" class="menu-links">CONTACT ME</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- THANK YOU -->
+    <section id="thank-you">
+        <div class="div-thanks">
+            <h1 class="thanks">Thanks!</h2>
+            <p>Thank you for contacting me! I will get back to you as soon as I can!</p>
+            <a href="index.html"><button class="thanks_btn"><span class="button-text">Go back</span></button></a>
+        </div>
+        <div class="div-thanks-img">
+            <img class="thanks-image" src="assets/thanks.svg" alt="thanks">
+        </div>
+    </section>
+
+    <hr class="footer_hr" />
+    <!-- FOOTER -->
+    <section id="footer">
+        <div class="footer">
+            <p class="foot">
+                Created by Kat Wlodarczyk © Copyright 2020. All rights reserved. |
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </p>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
