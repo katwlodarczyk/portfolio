@@ -14,9 +14,8 @@ nav {
 nav ul {
     margin: 0 auto;
     float: right;
-    margin-top: -35px;
+    margin-top: -53px;
     margin-right: 30px;
-    ;
 }
 
 nav ul li {
@@ -32,10 +31,14 @@ nav ul li a {
     font-size: 18px;
 }
 
+nav ul li a:hover{
+    color: rgb(91, 152, 137);
+} 
+
 #logo {
-    height: 45px;
-    margin-left: 10px;
-    margin-top: 10px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 15px;
     transition: 0.15 ease-in-out;
 }
 
@@ -858,7 +861,7 @@ button[type=submit]:hover {
     }
 
     .contact_right {
-        width: 70%;
+        width: 60%;
         float: none;
         margin-left: 5%;
         margin-top: 0px;
@@ -1005,7 +1008,6 @@ button[type=submit]:hover {
     }
 
     .contact_right {
-        width: 70%;
         margin-left: 5%;
     }
 
@@ -1236,11 +1238,25 @@ button[type=submit]:hover {
     .hello_btn{
         width: 70%;
     }
+
+    .about_left{
+        display: block;
+        width: 90%;
+    }
     .about_img{
-        display: inline;
+        display: block;
+        content: url(assets/profile-blob.png);
+        float: right;
+        max-width: 60%;
+        padding-top: 0;
+                
     }
     .project_image{
         opacity: 1;
+    }
+
+    .contact_right{
+        width: 80%;
     }
 
     .policy{
