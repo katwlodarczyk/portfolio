@@ -41,8 +41,11 @@ The purpose of the website is self-promote, not to sell products. Therefore no m
 ## 1.7 Evaluation
 
 In conclusion, portfolio website has fully solved the isssue of self promotion. 
+
 Process of the design and development allowed to better understand the fundamentals of creating a website. During the coding phase, a lot of problems arised, but tackling them made learning even more powerful. To name a few, there was an issue with proper structure of the website, implementing JavaScript to create a typescript effect, responsive hamburger menu and the transition effect on the hamburger button/close button, adding a custom domain, getting the contact form to fully work by embedding Google Forms, animating the send button on click, only after the form has been validated, optimising images used on the website or creating a robots.txt file in order to prevent crawlers to get into a 'thank you' page. 
+
 Website has been tested via Google Chrome Developer Tools, and also by perfoming an audit via Google Lighthouse Tool. The results of both were satisfactory. Developer Tools showed that the website is fully responsive. The audit report resulted in 99 points in Performance, 100 points for Accessibility, 93 points for Best Practices and 100 points for SEO. All of those were ranked in a highest tier on the Lighthouse scale.
+
 Modern, contemporary design and analysis of design principles have shaped the design choices that were used to create the portfolio. User Expirience has also been a priority on this project. Mobile first approach have been chosen to implement the design, as most people now browse websites while using their mobiles phones, not desktops. It is also better to enhance the design while increasing the screen size, rather than downgrading it while decreasing the screen size.
 
 ## 2. References
