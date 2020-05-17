@@ -1,3 +1,7 @@
 User-agent: *
-Dissallow: katwlodarczyk.com/thanks.html/
-Noindex: katwlodarczyk.com/thanks.html/
+Dissallow: /thanks.html/
+Noindex: /thanks.html/
+
+User-agent: *
+Dissallow: /assets/
+Noindex: /assets/
