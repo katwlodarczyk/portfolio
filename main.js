@@ -1,3 +1,29 @@
+
+//TO TOP BUTTON
+
+toTopbutton = document.getElementById("toTopBtn");
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 700 ||
+    document.documentElement.scrollTop > 700
+  ) {
+
+    toTopbutton.style.display = "block";
+  } else {
+    toTopbutton.style.display = "none";
+  }
+}
+
+function toTopFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
 // FORM VALIDATION
 
 function main() {
@@ -54,7 +80,7 @@ var contactForm = document.getElementById("contactForm");
 
 
 btn.addEventListener("click", () => {
-  if (contactForm.name.value != "" && contactForm.email.value != "" && contactForm.message.value != "" && contactForm.agree.value == "yes"){
+  if (contactForm.name.value != "" && contactForm.email.value != "" && contactForm.message.value != "" && contactForm.agree.value == "yes") {
     btn.classList.add("sending");
     btnText.innerHTML = "Sending...";
 
@@ -95,29 +121,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   StartTextAnimation(0);
 });
 
-//TO TOP BUTTON
-
-toTopbutton = document.getElementById("toTopBtn");
-
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 600 ||
-    document.documentElement.scrollTop > 600
-  ) {
-    toTopbutton.style.display = "block";
-  } else {
-    toTopbutton.style.display = "none";
-  }
-}
-
-function toTopFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
 
 // HAMBURGER MENU
 
