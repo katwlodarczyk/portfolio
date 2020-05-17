@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-    color: rgb(53, 85, 77));
+    color: rgb(53, 85, 77);
 } 
 
 #logo {
@@ -173,6 +173,7 @@ h1, h2{
 }
 
 .twitter, .github, .behance, .youtube, .blog{
+    display: inline-block;
     vertical-align: middle;
     margin-left: 20px;
 }
@@ -573,14 +574,11 @@ button[type=submit]:hover {
     resize: none;
 }
 
-.footer_hr {
-    margin-top: 100px;
-}
-
 #footer {
     position: relative;
     display: flex;
-    margin-top: 8px;
+    margin-top: 108px;
+    border-top: 1px solid rgb(43, 42, 42);
 
 }
 
