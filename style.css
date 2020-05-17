@@ -208,7 +208,7 @@ h1, h2{
 }
 
 a{
-    color: rgb(91, 152, 137);
+    color: rgb(53, 85, 77);
     text-decoration: none;
 }
 
@@ -462,6 +462,7 @@ input[type=email]:focus {
 
 #tickError{
     font-size: 12px;
+    margin-top: 5px;
     color: red;
 }
 
@@ -539,7 +540,7 @@ button[type=submit] {
     background-repeat: no-repeat;
     text-indent: 24px;
     text-emphasis: left;
-    margin-top: 15px;
+    margin-top: 12px;
     overflow: hidden;
     transition: 0.2s ease-in-out;
 }
