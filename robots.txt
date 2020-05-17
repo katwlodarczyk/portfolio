@@ -1,7 +1,7 @@
 User-agent: *
-Dissallow: /thanks.html/
+Disallow: /thanks.html/
 Noindex: /thanks.html/
 
 User-agent: *
-Dissallow: /assets/
+Disallow: /assets/
 Noindex: /assets/
