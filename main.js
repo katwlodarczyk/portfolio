@@ -45,10 +45,30 @@ function validateForm(event) {
 
 }
 
+//SEND BUTTON
+
+const btn = document.querySelector(".btn");
+const btnText = document.querySelector(".btn");
+var contactForm = document.getElementById("contactForm");
+
+
+
+btn.addEventListener("click", () => {
+  if (contactForm.name.value != "" && contactForm.email.value != "" && contactForm.message.value != "" && contactForm.agree.value == "yes"){
+    btn.classList.add("sending");
+    btnText.innerHTML = "Sending...";
+
+    setTimeout(() => {
+      btn.classList.remove("sending");
+      btnText.innerHTML = "Sent!";
+    }, 2000);
+  }
+});
+
 // TYPEWRITER
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  var text = ["web designer", "web developer"];
+  var text = ["digital designer", "web developer"];
 
   function typeWriter(text, i, fnCallback) {
     if (i < text.length) {
@@ -85,8 +105,8 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (
-    document.body.scrollTop > 700 ||
-    document.documentElement.scrollTop > 700
+    document.body.scrollTop > 600 ||
+    document.documentElement.scrollTop > 600
   ) {
     toTopbutton.style.display = "block";
   } else {
@@ -116,18 +136,3 @@ function hamburgerMenu() {
     x.classList.remove("responsive");
   }
 }
-
-//SENT BUTTON
-
-const btn = document.querySelector(".btn");
-const btnText = document.querySelector(".btn");
-
-btn.addEventListener("click", () => {
-  btn.classList.add("sending");
-  btnText.innerHTML = "Sending...";
-
-  setTimeout(() => {
-    btn.classList.remove("sending");
-    btnText.innerHTML = "Sent!";
-  }, 2000);
-});
