@@ -1,6 +1,7 @@
 ## 1.1 Background
 Created website is attempting to solve the issue of self-promotion. Web technology sector relies deeply on the ability to show yourself and your abilities. 
 This problem complies with the assessment criteria. 
+Link to GitHub repository: https://github.com/katwlodarczyk/portfolio
 
 ## 1.2 Wire Frames
 Low fidelity wire frames have been created prior to the coding process.
