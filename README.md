@@ -4,10 +4,12 @@ This problem complies with the assessment criteria.
 
 ## 1.2 Wire Frames
 Low fidelity wire frames have been created prior to the coding process.
-![desktop+mobile homepage](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes1.png "Desktop+mobile home page")
-![desktop+mobile privacy policy page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes2.png "Desktop+mobile privacy policy page")
-![desktop+mobile thank you page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes3.png "Desktop+mobile thank you page")
-
+![desktop homepage](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes1.png "Desktop home page")
+![desktop privacy policy page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes2.png "Desktop privacy policy page")
+![desktop thank you page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes3.png "Desktop thank you page")
+![mobile homepage](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes4.png "mobile home page")
+![mobile privacy policy page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes5.png "mobile privacy policy page")
+![mobile thank you page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes6.png "mobile thank you page")
 
 ## 1.3 Colour Choices
 _“The colour scheme for a website can contribute to the overall brand perception of products or services.”_ (Interaction Design Foundation, 2020) Portfolio has been created with a “less is more” approach in mind. That is why the colour scheme used in this project is very minimalistic. Palette consist of only three different colours: black, white and different shades of blue (teal blue and ocean blue). Based on research by CCICOLOR, blue is said to reflect strength and reliability. Choosing more pastel hues of this colour adds positivity. 
