@@ -1,4 +1,5 @@
 
+## SEE LIVE WEBSITE AT https://katwlodarczyk.com/
 ## Link to GitHub repository: https://github.com/katwlodarczyk/portfolio
 
 ## 1.1 Background
