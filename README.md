@@ -5,10 +5,10 @@ This problem complies with the assessment criteria.
 ## 1.2 Wire Frames
 Low fidelity wire frames have been created prior to the coding process.
 ![desktop homepage](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes1.png "Desktop home page")
-![desktop privacy policy page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes2.png "Desktop privacy policy page")
+    ![desktop privacy policy page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes2.png "Desktop privacy policy page")
 ![desktop thank you page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes3.png "Desktop thank you page")
-![mobile homepage](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes4.png "mobile home page")
-![mobile privacy policy page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes5.png "mobile privacy policy page")
+       ![mobile homepage](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes4.png "mobile home page")<br>
+     ![mobile privacy policy page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes5.png "mobile privacy policy page")
 ![mobile thank you page](https://github.com/katwlodarczyk/portfolio/blob/master/assets/wireframes6.png "mobile thank you page")
 
 ## 1.3 Colour Choices
