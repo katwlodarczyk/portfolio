@@ -884,6 +884,7 @@ button[type=submit]:hover {
     #skills {
         margin-bottom: 0px;
         margin-top: 0px;
+        margin-left: 5%
     }
 
     .skills_right {
