@@ -3,5 +3,4 @@ Disallow: /thanks.html/
 Noindex: /thanks.html/
 
 User-agent: *
-Disallow: /assets/
 Noindex: /assets/
