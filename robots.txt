@@ -1,6 +1,3 @@
 User-agent: *
 Disallow: /thanks.html/
 Noindex: /thanks.html/
-
-User-agent: *
-Noindex: /assets/
