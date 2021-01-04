@@ -178,10 +178,13 @@ h2 {
 .github,
 .behance,
 .youtube,
-.blog {
+.blog,
+.linkedin {
     display: inline-block;
     vertical-align: middle;
     margin-left: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 .twitter:hover {
@@ -192,6 +195,12 @@ h2 {
 
 .github:hover {
     content: url(assets/github_color.svg);
+    transform: scale(1.3);
+    transition: 0.3s ease-in-out
+}
+
+.linkedin:hover {
+    content: url(assets/linkedin-color.svg);
     transform: scale(1.3);
     transition: 0.3s ease-in-out
 }
@@ -282,8 +291,9 @@ p {
 .icon {
     margin-right: 10px;
     margin-top: 8px;
-    height: 20%;
+    height: 60px;
     vertical-align: middle;
+    width: 60px;
 }
 
 .icon:hover {
@@ -322,7 +332,8 @@ p {
 .project_4,
 .project_5,
 .project_6,
-.project_7 {
+.project_7,
+.project_8 {
     width: 24%;
     padding: 0 3%;
     float: left;
@@ -1041,7 +1052,7 @@ button[type=submit]:hover {
     }
 
     .skills_left {
-        width: 80%;
+        width: 100%;
         height: auto;
         margin-bottom: 12%;
         margin-top: 0;
