@@ -326,14 +326,7 @@ p {
     font-weight: 400;
 }
 
-.project_1,
-.project_2,
-.project_3,
-.project_4,
-.project_5,
-.project_6,
-.project_7,
-.project_8 {
+.project {
     width: 24%;
     padding: 0 3%;
     float: left;
@@ -342,7 +335,7 @@ p {
     margin-bottom: 150px;
 }
 
-.project_7 .content {
+#slim .content {
     width: 35%;
     height: auto;
     align-items: ;
