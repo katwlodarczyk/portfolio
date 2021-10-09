@@ -1,4 +1,3 @@
-
 //TO TOP BUTTON
 
 toTopbutton = document.getElementById("toTopBtn");
@@ -94,7 +93,7 @@ btn.addEventListener("click", () => {
 // TYPEWRITER
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  var text = ["digital designer", "web developer"];
+  var text = ["software developer", "digital designer"];
 
   function typeWriter(text, i, fnCallback) {
     if (i < text.length) {
