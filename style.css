@@ -1295,13 +1295,7 @@ button[type=submit]:hover {
         text-align: left;
     }
 
-    .project_1,
-    .project_2,
-    .project_3,
-    .project_4,
-    .project_5,
-    .project_6,
-    .project_7 {
+    .project {
         width: 100%;
         height: auto;
         margin: 0;
@@ -1344,7 +1338,7 @@ button[type=submit]:hover {
     }
 
     .hello_job {
-        font-size: 17px;
+        font-size: 13px;
     }
 
     .hello_btn {
